@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DECAEC4828CF3E2500332074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAEC4728CF3E2500332074 /* AppDelegate.swift */; };
+		DECAEC4A28CF3E2500332074 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAEC4928CF3E2500332074 /* SceneDelegate.swift */; };
+		DECAEC4C28CF3E2500332074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAEC4B28CF3E2500332074 /* ViewController.swift */; };
+		DECAEC4F28CF3E2500332074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECAEC4D28CF3E2500332074 /* Main.storyboard */; };
+		DECAEC5128CF3E2600332074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECAEC5028CF3E2600332074 /* Assets.xcassets */; };
+		DECAEC5428CF3E2600332074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECAEC5228CF3E2600332074 /* LaunchScreen.storyboard */; };
+		DECAEC5F28CF3E2600332074 /* Audacity_PodcastAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAEC5E28CF3E2600332074 /* Audacity_PodcastAppTests.swift */; };
+		DECAEC6928CF3E2600332074 /* Audacity_PodcastAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAEC6828CF3E2600332074 /* Audacity_PodcastAppUITests.swift */; };
+		DECAEC7628CF4E9F00332074 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAEC7528CF4E9F00332074 /* ExploreViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DECAEC5B28CF3E2600332074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DECAEC3C28CF3E2500332074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DECAEC4328CF3E2500332074;
+			remoteInfo = "Audacity PodcastApp";
+		};
+		DECAEC6528CF3E2600332074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DECAEC3C28CF3E2500332074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DECAEC4328CF3E2500332074;
+			remoteInfo = "Audacity PodcastApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DECAEC4428CF3E2500332074 /* Audacity PodcastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audacity PodcastApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECAEC4728CF3E2500332074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DECAEC4928CF3E2500332074 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DECAEC4B28CF3E2500332074 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DECAEC4E28CF3E2500332074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DECAEC5028CF3E2600332074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DECAEC5328CF3E2600332074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DECAEC5528CF3E2600332074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECAEC5A28CF3E2600332074 /* Audacity PodcastAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Audacity PodcastAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECAEC5E28CF3E2600332074 /* Audacity_PodcastAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audacity_PodcastAppTests.swift; sourceTree = "<group>"; };
+		DECAEC6428CF3E2600332074 /* Audacity PodcastAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Audacity PodcastAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECAEC6828CF3E2600332074 /* Audacity_PodcastAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audacity_PodcastAppUITests.swift; sourceTree = "<group>"; };
+		DECAEC7528CF4E9F00332074 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DECAEC4128CF3E2500332074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECAEC5728CF3E2600332074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECAEC6128CF3E2600332074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DECAEC3B28CF3E2500332074 = {
+			isa = PBXGroup;
+			children = (
+				DECAEC4628CF3E2500332074 /* Audacity PodcastApp */,
+				DECAEC5D28CF3E2600332074 /* Audacity PodcastAppTests */,
+				DECAEC6728CF3E2600332074 /* Audacity PodcastAppUITests */,
+				DECAEC4528CF3E2500332074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DECAEC4528CF3E2500332074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DECAEC4428CF3E2500332074 /* Audacity PodcastApp.app */,
+				DECAEC5A28CF3E2600332074 /* Audacity PodcastAppTests.xctest */,
+				DECAEC6428CF3E2600332074 /* Audacity PodcastAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DECAEC4628CF3E2500332074 /* Audacity PodcastApp */ = {
+			isa = PBXGroup;
+			children = (
+				DECAEC4728CF3E2500332074 /* AppDelegate.swift */,
+				DECAEC4928CF3E2500332074 /* SceneDelegate.swift */,
+				DECAEC4B28CF3E2500332074 /* ViewController.swift */,
+				DECAEC4D28CF3E2500332074 /* Main.storyboard */,
+				DECAEC7528CF4E9F00332074 /* ExploreViewController.swift */,
+				DECAEC5028CF3E2600332074 /* Assets.xcassets */,
+				DECAEC5228CF3E2600332074 /* LaunchScreen.storyboard */,
+				DECAEC5528CF3E2600332074 /* Info.plist */,
+			);
+			path = "Audacity PodcastApp";
+			sourceTree = "<group>";
+		};
+		DECAEC5D28CF3E2600332074 /* Audacity PodcastAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DECAEC5E28CF3E2600332074 /* Audacity_PodcastAppTests.swift */,
+			);
+			path = "Audacity PodcastAppTests";
+			sourceTree = "<group>";
+		};
+		DECAEC6728CF3E2600332074 /* Audacity PodcastAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DECAEC6828CF3E2600332074 /* Audacity_PodcastAppUITests.swift */,
+			);
+			path = "Audacity PodcastAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DECAEC4328CF3E2500332074 /* Audacity PodcastApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECAEC6C28CF3E2600332074 /* Build configuration list for PBXNativeTarget "Audacity PodcastApp" */;
+			buildPhases = (
+				DECAEC4028CF3E2500332074 /* Sources */,
+				DECAEC4128CF3E2500332074 /* Frameworks */,
+				DECAEC4228CF3E2500332074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Audacity PodcastApp";
+			productName = "Audacity PodcastApp";
+			productReference = DECAEC4428CF3E2500332074 /* Audacity PodcastApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DECAEC5928CF3E2600332074 /* Audacity PodcastAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECAEC6F28CF3E2600332074 /* Build configuration list for PBXNativeTarget "Audacity PodcastAppTests" */;
+			buildPhases = (
+				DECAEC5628CF3E2600332074 /* Sources */,
+				DECAEC5728CF3E2600332074 /* Frameworks */,
+				DECAEC5828CF3E2600332074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DECAEC5C28CF3E2600332074 /* PBXTargetDependency */,
+			);
+			name = "Audacity PodcastAppTests";
+			productName = "Audacity PodcastAppTests";
+			productReference = DECAEC5A28CF3E2600332074 /* Audacity PodcastAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DECAEC6328CF3E2600332074 /* Audacity PodcastAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECAEC7228CF3E2600332074 /* Build configuration list for PBXNativeTarget "Audacity PodcastAppUITests" */;
+			buildPhases = (
+				DECAEC6028CF3E2600332074 /* Sources */,
+				DECAEC6128CF3E2600332074 /* Frameworks */,
+				DECAEC6228CF3E2600332074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DECAEC6628CF3E2600332074 /* PBXTargetDependency */,
+			);
+			name = "Audacity PodcastAppUITests";
+			productName = "Audacity PodcastAppUITests";
+			productReference = DECAEC6428CF3E2600332074 /* Audacity PodcastAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DECAEC3C28CF3E2500332074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DECAEC4328CF3E2500332074 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DECAEC5928CF3E2600332074 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DECAEC4328CF3E2500332074;
+					};
+					DECAEC6328CF3E2600332074 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DECAEC4328CF3E2500332074;
+					};
+				};
+			};
+			buildConfigurationList = DECAEC3F28CF3E2500332074 /* Build configuration list for PBXProject "Audacity PodcastApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DECAEC3B28CF3E2500332074;
+			productRefGroup = DECAEC4528CF3E2500332074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DECAEC4328CF3E2500332074 /* Audacity PodcastApp */,
+				DECAEC5928CF3E2600332074 /* Audacity PodcastAppTests */,
+				DECAEC6328CF3E2600332074 /* Audacity PodcastAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DECAEC4228CF3E2500332074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECAEC5428CF3E2600332074 /* LaunchScreen.storyboard in Resources */,
+				DECAEC5128CF3E2600332074 /* Assets.xcassets in Resources */,
+				DECAEC4F28CF3E2500332074 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECAEC5828CF3E2600332074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECAEC6228CF3E2600332074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DECAEC4028CF3E2500332074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECAEC7628CF4E9F00332074 /* ExploreViewController.swift in Sources */,
+				DECAEC4C28CF3E2500332074 /* ViewController.swift in Sources */,
+				DECAEC4828CF3E2500332074 /* AppDelegate.swift in Sources */,
+				DECAEC4A28CF3E2500332074 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECAEC5628CF3E2600332074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECAEC5F28CF3E2600332074 /* Audacity_PodcastAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECAEC6028CF3E2600332074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECAEC6928CF3E2600332074 /* Audacity_PodcastAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DECAEC5C28CF3E2600332074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DECAEC4328CF3E2500332074 /* Audacity PodcastApp */;
+			targetProxy = DECAEC5B28CF3E2600332074 /* PBXContainerItemProxy */;
+		};
+		DECAEC6628CF3E2600332074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DECAEC4328CF3E2500332074 /* Audacity PodcastApp */;
+			targetProxy = DECAEC6528CF3E2600332074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DECAEC4D28CF3E2500332074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DECAEC4E28CF3E2500332074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DECAEC5228CF3E2600332074 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DECAEC5328CF3E2600332074 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DECAEC6A28CF3E2600332074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DECAEC6B28CF3E2600332074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DECAEC6D28CF3E2600332074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUGHZ7CXW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Audacity PodcastApp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Borucki.Audacity-PodcastApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DECAEC6E28CF3E2600332074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUGHZ7CXW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Audacity PodcastApp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Borucki.Audacity-PodcastApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DECAEC7028CF3E2600332074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUGHZ7CXW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Borucki.Audacity-PodcastAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Audacity PodcastApp.app/Audacity PodcastApp";
+			};
+			name = Debug;
+		};
+		DECAEC7128CF3E2600332074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUGHZ7CXW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Borucki.Audacity-PodcastAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Audacity PodcastApp.app/Audacity PodcastApp";
+			};
+			name = Release;
+		};
+		DECAEC7328CF3E2600332074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUGHZ7CXW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Borucki.Audacity-PodcastAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Audacity PodcastApp";
+			};
+			name = Debug;
+		};
+		DECAEC7428CF3E2600332074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUGHZ7CXW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Borucki.Audacity-PodcastAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Audacity PodcastApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DECAEC3F28CF3E2500332074 /* Build configuration list for PBXProject "Audacity PodcastApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECAEC6A28CF3E2600332074 /* Debug */,
+				DECAEC6B28CF3E2600332074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECAEC6C28CF3E2600332074 /* Build configuration list for PBXNativeTarget "Audacity PodcastApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECAEC6D28CF3E2600332074 /* Debug */,
+				DECAEC6E28CF3E2600332074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECAEC6F28CF3E2600332074 /* Build configuration list for PBXNativeTarget "Audacity PodcastAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECAEC7028CF3E2600332074 /* Debug */,
+				DECAEC7128CF3E2600332074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECAEC7228CF3E2600332074 /* Build configuration list for PBXNativeTarget "Audacity PodcastAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECAEC7328CF3E2600332074 /* Debug */,
+				DECAEC7428CF3E2600332074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DECAEC3C28CF3E2500332074 /* Project object */;
+}
