@@ -16,6 +16,7 @@
 		DECAEC5F28CF3E2600332074 /* Audacity_PodcastAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAEC5E28CF3E2600332074 /* Audacity_PodcastAppTests.swift */; };
 		DECAEC6928CF3E2600332074 /* Audacity_PodcastAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAEC6828CF3E2600332074 /* Audacity_PodcastAppUITests.swift */; };
 		DECAEC7628CF4E9F00332074 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAEC7528CF4E9F00332074 /* ExploreViewController.swift */; };
+		DECAEC7828D5CAB400332074 /* 1mts-short.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DECAEC7728D5CAB400332074 /* 1mts-short.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DECAEC6428CF3E2600332074 /* Audacity PodcastAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Audacity PodcastAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECAEC6828CF3E2600332074 /* Audacity_PodcastAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audacity_PodcastAppUITests.swift; sourceTree = "<group>"; };
 		DECAEC7528CF4E9F00332074 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		DECAEC7728D5CAB400332074 /* 1mts-short.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1mts-short.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		DECAEC4628CF3E2500332074 /* Audacity PodcastApp */ = {
 			isa = PBXGroup;
 			children = (
+				DECAEC7728D5CAB400332074 /* 1mts-short.mp4 */,
 				DECAEC4728CF3E2500332074 /* AppDelegate.swift */,
 				DECAEC4928CF3E2500332074 /* SceneDelegate.swift */,
 				DECAEC4B28CF3E2500332074 /* ViewController.swift */,
@@ -234,6 +237,7 @@
 				DECAEC5428CF3E2600332074 /* LaunchScreen.storyboard in Resources */,
 				DECAEC5128CF3E2600332074 /* Assets.xcassets in Resources */,
 				DECAEC4F28CF3E2500332074 /* Main.storyboard in Resources */,
+				DECAEC7828D5CAB400332074 /* 1mts-short.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +451,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,7 +480,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
